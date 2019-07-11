@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Local Time on Github Pull Request
+// @name         Local Time on Github
 // @namespace    http://github.com/peitili
 // @version      0.1
-// @description  Display the full datetime on pull request pages on Github
+// @description  Display the full local datetime on Github
 // @author       Peiti Li
-// @match        https://github.com/pulls?*
+// @match        https://github.com/*
 // @require      http://code.jquery.com/jquery-latest.js
 // @grant        none
 // ==/UserScript==
