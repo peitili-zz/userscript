@@ -10,8 +10,9 @@
 // ==/UserScript==
 $(document).ready(function() {
   $('relative-time').each(function() {
-    var ele = document.createElement('div');
+    var ele = document.createElement('p');
     ele.innerHTML = $(this).attr('title');
+    ele.style.display = 'inline';
     $(this).replaceWith(ele);
   });
 });
